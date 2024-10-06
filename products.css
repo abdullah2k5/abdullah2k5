@@ -1,0 +1,42 @@
+button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: gray;
+    font-style: italic;
+}
+button:hover {
+    background-color: black;
+}
+nav ul {
+    background-color: gray;
+    list-style-type: none;
+    display: block;
+    padding: 25px;
+    margin: 10px;
+    padding-top: 5px;
+}
+nav li {
+    float: left;
+    margin-right: 25px;
+}
+h1 {;
+    color: white;
+    text-align: center
+}
+body {
+    background-color: black;
+}
+.nine {
+    text-decoration: underline;
+}
+footer {
+    color: white;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    width: 1330px;
+    text-align: center;
+    padding: 10px;
+}
