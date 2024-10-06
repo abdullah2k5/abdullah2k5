@@ -1,0 +1,52 @@
+button {
+    border: none;
+    background-color: gray;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+}
+button:hover { background-color: black;}
+nav ul {
+    list-style-type: none;
+    background-color: gray;
+    display: block;
+    margin: 0px;
+    padding: 25px;
+    padding-top: 5px;
+    font-style: italic;
+}
+.eight { text-decoration: underline;
+font-style: italic;}
+nav li {
+    float: left;
+    margin-right: 25px;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+h1 { text-align: center;
+color: white;}
+body { background-color: black;}
+p { color: white;
+font-weight: 100;
+font-size: 20px;}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 1350px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+video {
+    height: 220px;
+    width: 1350px;
+    border: none;
+    position: absolute;
+    text-align: center;
+}
