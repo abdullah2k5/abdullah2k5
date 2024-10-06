@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    background-color: gray;
+    display: block;
+    padding: 20px;
+    margin: none;
+    padding-top: 5px;
+}
+main {
+    text-align: center;
+}
+nav li {
+    float: left;
+    margin-right: 25px;
+    color: white;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: black;
+}
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+h4 , p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.two {
+    text-align: center;
+    background-color: black;
+}
+button {
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.five , .six , .seven {
+    text-decoration: none;
+    background-color: gray;
+    font-size: 15px;
+}
+.five:hover , .six:hover , .seven:hover {
+    background-color: black;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(105, 105, 105);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
