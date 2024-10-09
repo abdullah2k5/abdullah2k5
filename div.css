@@ -1,0 +1,52 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: rgb(185, 182, 163);
+    border-radius: 15px;
+    width: 50vw;
+    box-shadow: 0 4px 8px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.one li {
+    list-style: none;
+}
+.one a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;    
+}
+.one h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.one ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.one button {
+    padding: 12px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0;
+}
+.one .Create {
+    background-color: white;
+    color: black;
+}
