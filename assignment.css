@@ -1,0 +1,56 @@
+* { 
+     margin: 0px; 
+     padding: 0px; 
+     box-sizing: border-box;
+}
+body {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.forecast-container {
+    text-align: center;
+    padding: 20px;
+
+}
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+    max-width: 500px;
+}
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(3, 31, 92);
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.sun {
+    background-color: yellow;
+}
+.cloud {
+    background-color: white;
+}
+.rain {
+    background-color: rgb(173, 165, 165);
+}
+.temp {
+    font-weight: 900;
+}
