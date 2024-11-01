@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let temp = 23;
+
+let isRaining = true;
+
+let message = "";
+
+if (isRaining && temp<=25){
+//   console.log("the weather is amazing");
+message = "the weather is amazing";
+
+}else{
+//   console.log("the weather is meh");
+message = "the weather is meh";
+}
+console.log(message);
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
